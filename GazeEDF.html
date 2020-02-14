@@ -18,9 +18,7 @@
      window.onload = function(){
        webgazer.setRegression('ridge') /* currently must set regression and tracker */
     .setTracker('clmtrackr')
-    .setGazeListener(function(data,clock))
-    {
-
+    .setGazeListener(function(data,clock){
     })
     .begin()
     .showPredictionPoints(true); /* shows a square every 100 milliseconds where current prediction is */
