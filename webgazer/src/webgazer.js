@@ -67,7 +67,7 @@
     webgazer.params.moveTickSize = 50; //milliseconds
 
     //currently used tracker and regression models, defaults to clmtrackr and linear regression
-    var curTracker = new {webgazer.tracker.ClmGaze()};
+    var curTracker = new webgazer.tracker.ClmGaze();
     var regs = [new webgazer.reg.RidgeReg()];
     var blinkDetector = new webgazer.BlinkDetector();
 
