@@ -68,7 +68,7 @@
 
     //currently used tracker and regression models, defaults to clmtrackr and linear regression
     var curTracker = new webgazer.tracker.ClmGaze();
-    var regs = new webgazer.reg.RidgeReg();
+    var regs = [new webgazer.reg.RidgeReg()];
     var blinkDetector = new webgazer.BlinkDetector();
 
     //lookup tables
